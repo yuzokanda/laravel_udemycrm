@@ -157,6 +157,7 @@ return [
         'password' => 'パスワード',
         'name' => '氏名',
         'title' => '件名',
+        'content' => '本文',
         'gender' => '性別',
         'age' => '年齢',
         'contact' => 'お問い合わせ内容',
