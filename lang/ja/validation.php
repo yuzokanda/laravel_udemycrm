@@ -161,7 +161,9 @@ return [
         'gender' => '性別',
         'age' => '年齢',
         'contact' => 'お問い合わせ内容',
-        'caution' => '注意事項'
+        'caution' => '注意事項',
+        'price' => '商品価格',
+        'memo' => 'メモ',
     ],
 
 ];
