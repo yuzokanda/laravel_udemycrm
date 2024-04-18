@@ -164,6 +164,12 @@ return [
         'caution' => '注意事項',
         'price' => '商品価格',
         'memo' => 'メモ',
+        'kana' => 'カナ',
+        'tel' => '電話番号',
+        'email' => 'メールアドレス',
+        'postcode' => '郵便番号',
+        'address' => '住所',
+        'birthday' => '誕生日',
     ],
 
 ];

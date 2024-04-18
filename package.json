@@ -19,6 +19,7 @@
         "vue": "^3.2.41"
     },
     "dependencies": {
-        "axios": "^1.6.8"
+        "axios": "^1.6.8",
+        "yubinbango-core2": "^0.6.3"
     }
 }
