@@ -8,6 +8,7 @@ use App\Http\Controllers\InertiaTestController;
 use App\Http\Controllers\ItemController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\PurchaseController;
+use App\Http\Controllers\AnalysisController;
 use App\Models\Purchase;
 
 /*
@@ -20,6 +21,8 @@ use App\Models\Purchase;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('analysis', [AnalysisController::class, 'index'])->name('analysis');
 
 Route::resource('items', ItemController::class)
 ->middleware(['auth', 'verified']);
